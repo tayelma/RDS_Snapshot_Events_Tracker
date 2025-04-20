@@ -7,7 +7,7 @@ This project provides an automated, infrastructure-as-code solution to capture, 
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Architecture](#architecture)
+2. [Architecture Blueprint](#Architecture-Blueprint)
 3. [Features](#features)
 4. [Prerequisites](#prerequisites)
 5. [Project Structure](#project-structure)
@@ -18,10 +18,10 @@ This project provides an automated, infrastructure-as-code solution to capture, 
    - [4. Verify Deployment](#5-verify-deployment)
 7. [Terraform Resources](#terraform-resources)
 8. [Logging and Storage](#logging-and-storage)
-9. [Clean Up](#clean-up)
+9. [Clean Up to Save Cost](#Clean-Up-to-Save-Cost)
 10. [Troubleshooting](#troubleshooting)
 11. [Contributing](#contributing)
-12. [Future Advancement](#Future Advancement)
+12. [Future Advancement](#Future-Advancement)
 
 ---
 
