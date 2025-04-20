@@ -65,3 +65,11 @@ resource "aws_iam_role_policy_attachment" "prod" {
   role       = aws_iam_role.prod.name
   policy_arn = aws_iam_policy.prod.arn
 }
+
+resource "aws_lambda_permission" "prod" {
+  statement_id  = "AllowExecutionFromEventBridge"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.prod.function_name
+  principal     = "events.amazonaws.com"
+  source_arn    = aws_cloudwatch_event_rule.prod.arn
+}

@@ -17,3 +17,4 @@ terraform {
     key    = "IaC/Common/Cloudwatch/AutoSnapshotsTracker/terraform.tfstate"
     region = "us-east-1"
   }
+}
