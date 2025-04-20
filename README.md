@@ -73,7 +73,7 @@ This solution:
 
 
 
-## Architecture
+## Architecture Blueprint
 
 ```plaintext
 ┌──────────────┐    RDS Snapshot    ┌────────────────┐
@@ -97,6 +97,11 @@ This solution:
                                         │ CloudWatch Logs)    │
                                         └────────────────────┘
 ```
+
+## Architecture Diagram
+
+![Project Architecture Diagram](image-1.png)
+
 
 ## Features
 
