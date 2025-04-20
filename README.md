@@ -98,9 +98,6 @@ This solution:
                                         └────────────────────┘
 ```
 
-## Architecture Diagram
-
-![Project Architecture Diagram](image-1.png)
 
 
 ## Features
